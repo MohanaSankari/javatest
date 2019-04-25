@@ -17,7 +17,7 @@ public static void main(String[] args) {
                                     new Employee1(38,"aaa","dep3",10000),
                                     new Employee1(39,"ddd","dep4",10000));
    // Predicate<Employee> p=t->t.
-e.stream().map(x->x.getSalary()).reduce(0,Integer::sum);
+//e.stream().map(x->x.getSalary()).reduce(0,Integer::sum);
 
 }
 }
